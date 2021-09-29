@@ -40,8 +40,7 @@ describe('Full Testing of Entire App Component', () => {
   });
 
   test('it should have 2 links in body', () => {
-    // expect(component.find('section').find('a').length == 2); //same as above
-    expect(component.find('section').find('a').length).toEqual(2); //same as above
+    expect(component.find('section').find('a').length).toEqual(2);
   });
 
   test('first link of body should open in same tab', () => {
