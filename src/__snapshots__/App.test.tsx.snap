@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Full Testing of Entire App Component it should run App Component 1`] = `
+<div
+  className="App"
+>
+  link
+  <header>
+    <h1
+      data-testid="heading"
+    >
+      D14-Squard-6
+    </h1>
+    <h3
+      data-testid="subheading"
+    >
+      <a
+        data-testid="link"
+        href="#"
+      >
+        Sub-Heading
+      </a>
+    </h3>
+  </header>
+  <section>
+    <a
+      className="link-self"
+      data-testid="link"
+      href="https://google.com"
+      rel="external"
+      target="_self"
+    >
+      This link
+    </a>
+     will open in same tab and
+    <a
+      className="link-newtab"
+      data-testid="link"
+      href="https://google.com"
+      rel="external"
+      target="_blank"
+    >
+      this link
+    </a>
+     will open in new tab.
+  </section>
+</div>
+`;

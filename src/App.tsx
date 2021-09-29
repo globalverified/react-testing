@@ -5,20 +5,24 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      link
+      <header>
+        <h1 data-testid="heading">D14-Squard-6</h1>
+        <h3 data-testid="subheading">
+          <a href="#" data-testid="link">Sub-Heading</a>
+          <a href="#" data-testid="link2">Sub-Heading2</a>
+        </h3>
       </header>
+      <section>
+        <a className="link-self"
+          href="https://google.com"
+          target="_self"
+          rel="external" data-testid="link">This link</a> will open in same tab and
+        <a className="link-newtab"
+          href="https://google.com"
+          target="_blank"
+          rel="external" data-testid="link">this link</a> will open in new tab.
+      </section>
     </div>
   );
 }
